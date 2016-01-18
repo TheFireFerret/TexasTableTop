@@ -9,8 +9,8 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    {% if page.url == "texastabletop/" %}
-    <link rel="stylesheet" href="{{ "/style.css" }}">
+    {% if page.layout == "default" %}
+    <link rel="stylesheet" href="{{ "style.css" }}">
     {% else %}
     <link rel="stylesheet" href="{{ "../style.css" }}">
     {% endif %}
@@ -22,8 +22,8 @@
     {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 
     <!-- Custom Fonts -->
-    {% if page.url == "texastabletop/" %}
-    <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" }}">
+    {% if page.layout == "default" %}
+    <link rel="stylesheet" href="{{ "css/font-awesome/css/font-awesome.min.css" }}">
     {% else %}
     <link rel="stylesheet" href="{{ "../css/font-awesome/css/font-awesome.min.css" }}">
     {% endif %}
