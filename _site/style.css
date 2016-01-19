@@ -258,6 +258,10 @@ section.success {
     }
 }
 
+.img-grid {
+  max-height: 350px;
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #18bc9c;
