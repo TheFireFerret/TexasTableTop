@@ -47,3 +47,12 @@
 		</div>
 	</div>
 </section>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(){
+    document.getElementById("contactForm").submit();
+    setTimeout(function () {
+      document.getElementById("contactForm").reset();
+    }, 1);
+});
+</script>

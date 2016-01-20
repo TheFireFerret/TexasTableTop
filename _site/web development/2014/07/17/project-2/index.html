@@ -265,6 +265,15 @@
   </div>
 </section>
 
+<script>
+document.getElementById("ss-form").addEventListener("submit", function(){
+    document.getElementById("ss-form").submit();
+    setTimeout(function () {
+      document.getElementById("ss-form").reset();
+    }, 1);
+});
+</script>
+
      <!-- About Section -->
     <section class="success" id="about">
         <div class="container">
@@ -337,6 +346,15 @@
 		</div>
 	</div>
 </section>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(){
+    document.getElementById("contactForm").submit();
+    setTimeout(function () {
+      document.getElementById("contactForm").reset();
+    }, 1);
+});
+</script>
 
     
 

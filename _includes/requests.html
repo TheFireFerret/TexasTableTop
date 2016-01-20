@@ -41,3 +41,12 @@
     </div>
   </div>
 </section>
+
+<script>
+document.getElementById("ss-form").addEventListener("submit", function(){
+    document.getElementById("ss-form").submit();
+    setTimeout(function () {
+      document.getElementById("ss-form").reset();
+    }, 1);
+});
+</script>
