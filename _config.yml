@@ -52,7 +52,7 @@ address:
   - line: Room 2.404 (Pearce Hall)
 
 # Credits content
-credits: 'Hosted on GitHub pages and built using the Freelancer Bootstrap theme'
+credits: 'Hosted on GitHub Pages and built using the Freelancer Bootstrap theme'
 
 # Build settings
 markdown: kramdown
