@@ -1,69 +1,43 @@
-<!-- About Section -->
+<!-- Request Section -->
 <section id="requests">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Requests</h2>
-                <hr class="star-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Requests</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div>
+      <div class="col-lg-8 col-lg-offset-2">
+        <p>Have any games you want us to get? Tell us here!</p>
+      </div>
+      <br>
+
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <form action="https://docs.google.com/forms/d/103CkKdM1NQiZ4uedda0IYrzA4KcEd4gYtHmfOJIAm3k/formResponse"
+          method="POST" id="ss-form" target="_blank" onsubmit="">
+          <div class="row control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <label for="entry_1596607296">Name</label>
+              <input type="text" name="entry.1596607296" value="" class="ss-q-short form-control id="entry_1596607296" dir="auto" aria-label="Name  " placeholder="Name" title="">        							<p class="help-block text-danger"></p>
             </div>
-        </div>
-        <div>
-
-  
-            <form action="https://docs.google.com/forms/d/103CkKdM1NQiZ4uedda0IYrzA4KcEd4gYtHmfOJIAm3k/formResponse"
-                  method="POST" id="ss-form" target="_self" onsubmit="">
-                <ol role="list" class="ss-question-list" style="padding-left: 0">
-                    <div class="ss-form-question errorbox-good" role="listitem">
-                        <div dir="auto" class="ss-item  ss-text">
-                            <div class="ss-form-entry">
-                                <label class="ss-q-item-label" for="entry_1596607296">
-                                    <div class="ss-q-title">Name
-                                    </div>
-                                    <div class="ss-q-help ss-secondary-text" dir="auto"></div>
-                                </label>
-                                <input type="text" name="entry.1596607296" value="" class="ss-q-short"
-                                       id="entry_1596607296" dir="auto" aria-label="Name  " title="">
-                                <div class="error-message" id="1511753343_errorMessage"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ss-form-question errorbox-good" role="listitem">
-                        <div dir="auto" class="ss-item  ss-text">
-                            <div class="ss-form-entry">
-                                <label class="ss-q-item-label" for="entry_313256364">
-                                    <div class="ss-q-title">Game Title
-                                    </div>
-                                    <div class="ss-q-help ss-secondary-text" dir="auto"></div>
-                                </label>
-                                <input type="text" name="entry.313256364" value="" class="ss-q-short"
-                                       id="entry_313256364" dir="auto" aria-label="Game Title  " title="">
-                                <div class="error-message" id="1689414643_errorMessage"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <input type="hidden" name="draftResponse" value="[,,&quot;-4540072162834925329&quot;]
-  ">
-                    <input type="hidden" name="pageHistory" value="0">
-
-                    <input type="hidden" name="fvv" value="0">
-
-
-                    <input type="hidden" name="fbzx" value="-4540072162834925329">
-
-                    <div class="ss-item ss-navigate">
-                        <table id="navigation-table">
-                            <tbody>
-                            <tr>
-                                <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
-                                    <input type="submit" name="submit" value="Submit" id="ss-submit"
-                                           class="jfk-button jfk-button-action ">
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </ol>
-            </form>
-
-
-        </div>
-      </section>
+          </div>
+          <div class="row control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <label for="entry_313256364">Name</label>
+              <input type="text" name="entry.313256364" value="" class="ss-q-short form-control id="entry_1596607296" dir="auto" aria-label="Name  " placeholder="Game Title" title="">        							<p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <br>
+          <div id="success"></div>
+          <div class="row">
+            <div class="form-group col-xs-12">
+              <button type="submit" class="btn btn-outline btn-lg">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
