@@ -257,9 +257,9 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #18bc9c;
+    border: solid 2px #BF5700;
     font-size: 20px;
-    color: #18bc9c;
+    color: #BF5700;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -270,7 +270,7 @@ section.success {
 .btn-outline.active {
     border: solid 2px #fff;
     color: #fff;
-    background: #18bc9c;
+    background: #BF5700;
 }
 
 .btn-inline {
@@ -286,8 +286,8 @@ section.success {
 .btn-inline:focus,
 .btn-inline:active,
 .btn-inline.active {
-    border: solid 2px #ff18bc9cf;
-    color: #18bc9c;
+    border: solid 2px #ffBF5700f;
+    color: #BF5700;
     background: #fff;
 }
 
