@@ -1,6 +1,6 @@
 # Site settings
 title: Texas Table Top
-email: samiglasco@domain.com
+email: texastabletop@domain.com
 url: https://thefireferret.github.io/
 baseurl: /texastabletop
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
@@ -48,8 +48,8 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: The Union
-  - line: 2247 Guadalupe St
   - line: Room 2.404 (Pearce Hall)
+  - line: 2247 Guadalupe St
 
 # Credits content
 credits: 'Hosted on GitHub Pages and built using the Freelancer Bootstrap theme'
